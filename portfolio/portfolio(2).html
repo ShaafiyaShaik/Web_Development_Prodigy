@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>Portfolio</h2></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="box1">
+        <div class="content">
+            <h2>Hello, my name is</h2>
+            <h1>Shaik Shaafiya</h1>
+            <p>I'm a Computer Science Engineer with a passion for technology and innovation.</p>
+        </div>
+        <div class="image">
+            <img src="./profile.jpg" alt="Shaik Shaafiya">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <div class="aboutthing">
+            <p>Hi, I'm Shaik Shaafiya, a passionate Computer Science Engineering student currently pursuing my B.Tech at Vignan University in Vadlamudi, Andhra Pradesh. I am dedicated to exploring the latest advancements in technology and applying them to real-world problems.</p>
+            
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skillname">C</div>
+                    <div class="howmuch">
+                        <div class="skillbar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillname">Python</div>
+                    <div class="howmuch">
+                        <div class="skillbar" style="width:60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillname">Java</div>
+                    <div class="howmuch">
+                        <div class="skillbar" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skillname">HTML/CSS</div>
+                    <div class="howmuch">
+                        <div class="skillbar" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Education</h2>
+            <ul class="education">
+                <li>Bachelor of Technology (B.Tech) in Computer Science Engineering, Vignan University, Vadlamudi, Andhra Pradesh</li>
+                <li>Key Courses: Data Structures, Algorithms, Machine Learning, Web Development, Database Management Systems</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+        <div class="projects1">
+            <div class="projectthing">
+                <img src="./project pic1.png" alt="Restaurant Website">
+                <p><strong>Restaurant Website:</strong> A fully functional website for a restaurant, showcasing its menu, services, and contact information. The website is designed to provide an engaging experience for visitors with a modern and responsive layout.</p>
+            </div>
+            <div class="projectthing">
+                <img src="./project pic2.png" alt="Personality Prediction">
+                <p><strong>Personality Prediction (Ongoing):</strong> This project involves developing a machine learning model to predict personality traits based on user data. The project is currently in progress, and it aims to provide insights into personality characteristics using advanced algorithms.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <p>If you'd like to get in touch, please fill out the form below or reach out via email or connect with me on LinkedIn.</p>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shaik Shaafiya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
